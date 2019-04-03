@@ -1,0 +1,14 @@
+{
+    "ora":["1", "9:05"],
+    "avvisi":[ "topolino e minnie", "ammoniaca", "il pacco del corriere è quadarato ma lui pensa che sia un rattangolo 2D", "corriere internato per problemi psichici", "Sconvolto dalla felicità, Florentino Ariza passò il resto del pomeriggio a mangiare rose e a leggere la missiva, ripassandola lettera per lettera più volte e mangiando più rose quanto più la leggeva, e a mezzanotte l’aveva letta così tanto e aveva mangiato così tante rose che la madre dovette stenderlo a terra come un vitello per fargli ingoiare un decotto di olio di ricino. (Gabriel García Márquez)" ],
+    "sostituzioni": [
+      { "sostituto":"Ford", "sostituisce":"Henry", "classe":"2M", "aula":"07-TW", "durata":"1", "daOra":"1"},
+      { "sostituto":"Pino", "sostituisce":"Gino", "classe":"3A ET", "aula":"LEIS", "durata":"1", "daOra":"2"},
+      { "sostituto":"aaaa", "sostituisce":"AAAA", "classe":"3A ET", "aula":"LEIS", "durata":"3", "daOra":"2"},
+      { "sostituto":"Antonio", "sostituisce":"La Quaglia", "classe":"5A TL", "aula":"08-2W", "durata":"1", "daOra":"3" },
+      { "sostituto":"Feraverto", "sostituisce":"Magnacani", "classe":"Immagina", "aula":"puoi", "durata":"2", "daOra":"2" },
+      { "sostituto":"Matt", "sostituisce":"Groening", "classe":"Fumettista", "aula":"Disegno", "durata":"1", "daOra":"4" },
+      { "sostituto":"Ultimo", "sostituisce":"Ultima", "classe":"Lavapiatti", "aula":"Cucina", "durata":"1", "daOra":"5" },
+      { "sostituto":"Ma sono di troppo?", "sostituisce":"Non ho voglia di lavorare", "classe":"Fannullone", "aula":"Macchinetta del caffé", "durata":"1", "daOra":"6" }
+    ]
+}

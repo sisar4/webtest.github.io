@@ -1,0 +1,95 @@
+html, body, .container {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	margin:0;
+    padding:0;
+}
+
+.container {
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+
+.clock {
+	position: relative;
+	width: 99px;
+	height: 99px;
+	background: url(images/clock_face.png);
+}
+
+.hands {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+h4, th, h5{
+	color: rgb(16,69,190);
+}
+table {
+	font-family: "myFont", arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	background-color: white;
+	}
+	td
+	{
+		padding: 10px;
+		vertical-align: top;
+		border: none;
+	}
+	.borderedTDOrTh
+	{
+		border: 1px solid  rgb(187,206,230);
+	}
+	.mainTd
+	{
+		padding-left: 10px;
+		padding-top: 1px;
+		padding-right: 10px;
+		padding-bottom: 1px;
+	}
+  #pageGrid {
+	  height:100%;
+	  width:100%;
+		/*background-color: rgb(187,206,230);*/
+		background-color: white;
+  }
+  .trTop
+  {
+		height:10%;
+		background-color: white;
+  }
+  .trBottom
+  {
+		height:10%;
+		background-color: whitesmoke;
+  }
+  .trCenter
+  {
+	  height:40%;
+	}
+	
+@font-face {
+    font-family: "myFont";
+    src: url(fonts/weblysleekuisb.ttf) format("truetype");
+}
+p.customfont { 
+    font-family: "myFont", Verdana, Tahoma;
+}
+
+.scrollableCenterTableDiv
+{
+	max-height: 70%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.lowMargin
+{
+	margin: 2px;
+}
+  #currentHour{
+		padding-left: 20px;
+	}
