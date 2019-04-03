@@ -4,6 +4,19 @@
 <link rel="stylesheet" href="styles.css">
 <script src="advisor.js"></script>
 <script src="mouse.js"></script>
+<script>
+    function isIE() {
+      ua = navigator.userAgent;
+      /* MSIE used to detect old browsers and Trident used to newer ones*/
+      var is_ie = ua.indexOf("MSIE ") > -1 || ua.indexOf("Trident/") > -1;
+      
+      return is_ie; 
+    }
+    if(isIE())
+      {
+          alert('Questo browser potrebbe non essere compatibile');
+      }
+  </script>
 </head>
 <body>
 <table id="pageGrid">
